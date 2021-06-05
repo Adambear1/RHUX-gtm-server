@@ -1,5 +1,6 @@
 aenum==2.2.3
 alembic==1.6.0
+altgraph==0.17
 aniso8601==9.0.1
 apache-airflow==2.0.2
 apache-airflow-providers-ftp==1.0.1
@@ -13,11 +14,14 @@ astroid==2.5.3
 asyncio==3.4.3
 atomicwrites==1.4.0
 attrs==20.3.0
+auto-py-to-exe==2.9.0
 autopep8==1.5.2
 Babel==2.9.1
 backcall==0.2.0
 beautifulsoup4==4.9.1
 blinker==1.4
+bottle==0.12.19
+bottle-websocket==0.2.9
 bs4==0.0.1
 cached-property==1.5.2
 cattrs==1.6.0
@@ -41,6 +45,7 @@ dill==0.3.3
 distlib==0.3.1
 dnspython==2.1.0
 docutils==0.17.1
+Eel==0.12.4
 email-validator==1.1.2
 fake-useragent==0.1.11
 fbchat==1.9.7
@@ -57,6 +62,9 @@ Flask-PyMongo==2.3.0
 Flask-RESTful==0.3.8
 Flask-SQLAlchemy==2.5.1
 Flask-WTF==0.14.3
+future==0.18.2
+gevent==21.1.2
+gevent-websocket==0.10.1
 graphviz==0.16
 greenlet==1.0.0
 gunicorn==19.10.0
@@ -107,6 +115,7 @@ pandas==1.2.3
 parse==1.19.0
 parso==0.7.1
 peewee==3.14.3
+pefile==2021.5.24
 pendulum==2.1.2
 pickleshare==0.7.5
 Pillow==7.2.0
@@ -124,6 +133,8 @@ pyee==8.1.0
 pygame==1.9.6
 PyGetWindow==0.0.8
 Pygments==2.6.1
+pyinstaller==4.3
+pyinstaller-hooks-contrib==2021.1
 PyJWT==1.7.1
 pylint==2.7.4
 pymongo==3.11.3
@@ -148,6 +159,7 @@ python3-openid==3.2.0
 PyTweening==1.0.3
 pytz==2021.1
 pytzdata==2020.1
+pywin32-ctypes==0.2.0
 PyYAML==5.4.1
 requests==2.24.0
 requests-html==0.10.0
@@ -181,6 +193,9 @@ wcwidth==0.2.5
 webencodings==0.5.1
 websockets==8.1
 Werkzeug==1.0.1
+whichcraft==0.6.1
 wrapt==1.12.1
 WTForms==2.3.3
 zipp==3.4.1
+zope.event==4.5.0
+zope.interface==5.4.0
