@@ -11,12 +11,7 @@ from operator import attrgetter
 class Website(Resource):
     def __init__(self):
         self.url = "https://api.harvestapp.com/v2/clients"
-        self.headers = {
-            "Harvest-Account-ID": "1442482",
-            "Authorization": "Bearer " + "2643787.pt.x_F5KtFlvbpyDrYFfVitGqtcR5G869PEisVBXwL49LsPwKO_Mlk75gxaf_IUWc24qxmiAgcazmMkD_YUphzgMg",
-            "User-Agent": "RHUX-Reminder (adam.birgenheier@rhuxanalytics.com)"
-        }
-
+        
     def get(self):
         try:
             request = urllib.request.Request(
